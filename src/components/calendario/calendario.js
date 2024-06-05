@@ -1,64 +1,45 @@
-import React from 'react'
-import './calendario.css'
+import React from 'react';
+import './calendario.css';
 
 const Calendario = () => {
+
+    const diasDaSemana = [
+        { numero: '01', nome: 'seg' },
+        { numero: '02', nome: 'ter' },
+        { numero: '03', nome: 'qua' },
+        { numero: '04', nome: 'qui' },
+        { numero: '05', nome: 'sex' },
+        { numero: '06', nome: 'sab' },
+        { numero: '07', nome: 'dom' },
+        { numero: '08', nome: 'seg' },
+        { numero: '09', nome: 'ter' },
+        { numero: '10', nome: 'qua' },
+    ];
+
     return (
         <div>
             <div className='mes-e-ano'>
                 <span className='mes-e-ano'>abril • 2024</span>
             </div>
-            <div class="calendar">
+            
+            <div className="calendar">
                 <div className='chevron-left'>
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                 </div>
-                <div class="day">
-                    <div class="ball">01</div>
-                    <div class="day-of0-week">seg</div>
-                </div>
-                <div class="day">
-                    <div class="ball">02</div>
-                    <div class="day-of-week">ter</div>
-                </div>
-                <div class="day">
-                    <div class="ball">03</div>
-                    <div class="day-of-week">qua</div>
-                </div>
-                <div class="day">
-                    <div class="ball">04</div>
-                    <div class="day-of-week">qui</div>
-                </div>
-                <div class="day">
-                    <div class="ball">05</div>
-                    <div class="day-of-week">sex</div>
-                </div>
-                <div class="day">
-                    <div class="ball">06</div>
-                    <div class="day-of-week">sab</div>
-                </div>
-                <div class="day">
-                    <div class="ball">07</div>
-                    <div class="day-of-week">dom</div>
-                </div>
-                <div class="day">
-                    <div class="ball">08</div>
-                    <div class="day-of0-week">seg</div>
-                </div>
-                <div class="day">
-                    <div class="ball">09</div>
-                    <div class="day-of-week">ter</div>
-                </div>
-                <div class="day">
-                    <div class="ball">10</div>
-                    <div class="day-of-week">qua</div>
-                </div>
+                {diasDaSemana.map((dia, index) => (
+                    <div key={index} className="day">
+                        <div className="ball">{dia.numero}</div>
+                        <div className="day-of-week">{dia.nome}</div>
+                    </div>
+                ))}
                 <div className='chevron-right'>
-                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />  
-                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                    <span className="material-symbols-outlined">arrow_forward_ios</span>
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default Calendario;
