@@ -1,0 +1,148 @@
+.eventos{
+    font-family: "open sans", sans-serif;
+}
+
+.eventos-jogos {
+    display: flex;
+    flex-direction: column;
+}
+
+.evento-caixa-jogo {
+    border: 20px solid #683434;
+    border-radius: 8px;
+    width: 48%;
+    height: 200px;
+}
+
+.eventos-campeonato{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 35px;
+    text-align: center;
+    color: rgb(6, 170, 72);
+    border-left: rgb(6, 170, 72) solid 8px;
+    width: 500px;  
+    height: 15px; 
+}
+
+.eventos-campeonato-nome {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.eventos-campeonato-icone {
+    font-size: 24px;
+    display: flex;
+    line-height: 40px; 
+    color: rgb(6, 170, 72);
+    margin-left: 10px;
+}
+
+.evento-caixa-jogo {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 35px;
+    width: 450px;
+    height: 200px;
+}
+
+.evento-caixa-jogo-campo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+
+}
+
+.primeira-caixa {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.evento-caixa-jogo-campo_rodada{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+
+.evento-caixa-jogo-campo_horario{
+    display: flex;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    padding-left: 130px;
+}
+
+.evento-caixa-jogo-campo_status-da-partida {
+    border-radius: 4px solid #ddd;;
+    padding: 2px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    background: rgb(242, 242, 242);
+}
+
+.equipe-mandante{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin-left: 10px;
+}
+
+.equipe-mandante-escudo{
+    width: 25px;
+    height: 25px;
+}
+
+.evento-caixa-jogo-campo_time-mandante {
+    flex-grow: 6; 
+    text-align: left;
+    margin-left: 10px;
+}
+
+.evento-caixa-jogo-campo_placar-mandante{
+    flex-shrink: 4; 
+    text-align: right;
+    margin: 15px;
+}
+
+.equipe-visitante{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin-left: 10px;
+}
+
+.equipe-visitante-escudo{
+    width: 25px;
+    height: 25px;
+}
+
+.evento-caixa-jogo-campo_time-visitante{
+    flex-grow: 6; 
+    text-align: left; 
+    margin-left: 10px; 
+}
+
+.evento-caixa-jogo-campo_placar-visitante{
+    flex-shrink: 4; 
+    text-align: right;
+    margin: 15px;
+}
+
+.evento-caixa-jogo-campo_dois{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.evento-caixa-jogo-campo_dois_texto{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(6, 170, 72);
+}
