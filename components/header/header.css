@@ -1,0 +1,120 @@
+.links-container {
+    display: flex;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+.links-container a {
+    margin-right: 30px;
+    text-decoration: none; 
+    position: relative;
+    font-weight: bold;
+}
+
+.link-globo {
+    color: blue;
+}
+
+.link-g1 {
+    color: red;
+}
+
+.link-ge {
+    color: green;
+}
+
+.link-gshow {
+    color: orange;
+}
+
+.link-globoplay {
+    color: red;
+}
+
+.link-cartola {
+    color: darkorange;
+}
+
+.link-sportv {
+    color: black;
+}
+
+.header {
+    box-sizing: border-box;
+}
+
+.header_init{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-left: 35px;
+    
+}
+.header_icone-menu {
+    background-color: #02ab48; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
+}
+
+.header_menu {
+    font-weight: bold; 
+    padding-left: 8px;/* Texto em negrito */
+}
+
+.header_icone-ge {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 0 8px 20px
+}
+
+.header_agenda {
+    font-size: 32px;
+    font-weight: 300;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.header_agenda-icone {
+    max-width: 40px;
+    max-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header_agenda-texto {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 5px;
+
+}
+
+.header_campo_busca{
+    padding: 10px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.header_campo_busca-texto {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height:10px;
+    font-size: 12px;
+    background-color: #3a9660;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    
+}

@@ -1,0 +1,19 @@
+.footer {
+    box-sizing: border-box;
+}
+
+.footer_init{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-left: 35px;
+    
+}
+.footer_icone-menu {
+    background-color: #02ab48; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
+}
