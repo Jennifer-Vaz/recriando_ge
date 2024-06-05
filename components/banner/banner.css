@@ -1,0 +1,18 @@
+.banner {
+    padding: 20px 0px 10px 10px;
+    margin-left:35px;
+}
+
+.banner--campo-um{
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.banner--campo-dois{
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-size: 16px;
+}
